@@ -13,9 +13,7 @@ const CartItem = ({item}) => {
 
   return (
     <div className="p-4 border-b last:border-none border-green-50">
-
       <div className="flex justify-between py-3.5 px-2.5 gap-14 flex-col md:flex-row">
-
         <div className="md:w-[30%] w-full flex justify-center items-center">
           <img src={item.image} alt="" className="w-[40%] md:w-[50%] lg:w-full"/>
         </div>

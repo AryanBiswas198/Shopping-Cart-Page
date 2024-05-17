@@ -10,7 +10,6 @@ const Navbar = () => {
   return (
     <div className="border-b border-b-green-50">
       <nav className="flex justify-between items-center h-20 max-w-6xl mx-auto">
-
         <NavLink to="/">
           <div className="ml-5">
           <img src={Logo} className="h-14"/>
@@ -34,7 +33,6 @@ const Navbar = () => {
                   }
               </div>
             </NavLink>
-            
           </div>
       </nav>
     </div>
